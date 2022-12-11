@@ -2,7 +2,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
+    width: 528px;
     height: 581px;
     background-color: $heading-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -37,20 +37,27 @@
 .modal-form__slogan {
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.1;
+    line-height: 1.5;
     color: $title-color;
     letter-spacing: 0.03em;
     display: flex;
     justify-content: center;
+    width: 448px;
+    height: 23px;
     margin-bottom: 12px;
     @media screen and (min-width: $desktop) {
         line-height: 1.15;
     }
-
 }
 
 .modal-form {
     max-width: 370px;
+    height: 342px;
+    padding-left: 41px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 39px;
+
     @media screen and (min-width: $desktop) {
         max-width: 448px;
     }
@@ -94,11 +101,15 @@
     margin-top: 20px;
     margin-bottom: 30px;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     width: 423px;
     height: 24px;
+    @media screen and (min-width: $desktop) {
+        font-size: 14px;
+        line-height: 1.7;
+    }
 }
 
 .modal-form__checkbox-link {

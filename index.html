@@ -27,12 +27,11 @@
                 <a href="" class="webstudio"><span>Web</span>Studio</a>
 
                 <button class="mobile-menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
-                    <svg width="40" height="40" aria-label="Кнопка мобільного меню">
-                        <use href="./images/symbol-defs2.svg#"></use>
+                    <svg width="40" height="40" aria-label="Кнопка мобільного меню" class="mobile-menu__icon">
+                        <use href="./images/symbol-defs4.svg#menu_40px-1"></use>
                     </svg>
                 </button>
-
-
+                
                 <ul class="navigation-list">
                     <li class="navigation-list__item"><a href="index.html" class="navigation-list__link current">Студія</a></li>
                     <li class="navigation-list__item"><a href="portfolio.html" class="navigation-list__link">Портфоліо</a></li>
@@ -54,6 +53,10 @@
                         </svg>+38 096 111 11 11</a>
                 </li>
             </ul>
+
+
+            
+
         </div>
     </header>
 
@@ -125,12 +128,11 @@
                     
                     <li class="work-item">
                     <div class="work__img">
-                        
-                            <picture>
-                                <img srcset="./images/development-desktop@1x.jpg 1x, ./images/development-desktop@2x.jpg 2x"
-                                    src="./images/development-desktop@1x.jpg" alt="Десктопні додатки" width="370" height="294">
-                            </picture>
-                            <div class="work__slogan-div">
+                        <picture>
+                            <img srcset="./images/development-desktop@1x.jpg 1x, ./images/development-desktop@2x.jpg 2x"
+                                src="./images/development-desktop@1x.jpg" alt="Десктопні додатки" width="370" height="294">
+                        </picture>
+                        <div class="work__slogan-div">
                             <p class="work__slogan">Десктопні додатки</p>
                         </div>
                     </div>
@@ -139,13 +141,11 @@
                    
                     <li class="work-item">
                     <div class="work__img">
-                        
-                    
                         <picture>
                             <img srcset="./images/layout-desktop@1x.jpg 1x, ./images/layout-desktop@2x.jpg 2x"
                                 src="./images/layout-desktop@1x.jpg" alt="Мобільні додатки" width="370" height="294">
                         </picture>
-                        <div class="work__slogan-div">
+                    <div class="work__slogan-div">
                         <p class="work__slogan">Мобільні додатки</p>
                     </div>
                     </div>
@@ -153,7 +153,6 @@
                 
                     <li class="work-item">
                     <div class="work__img">
-
                         <picture>
                             <img srcset="./images/palette-desktop@1x.jpg 1x, ./images/palette-desktop@2x.jpg 2x"
                                 src="./images/palette-desktop@1x.jpg" alt="Дизайнерські рішення" width="370" height="294">
@@ -181,7 +180,7 @@
                                 srcset="./images/ihor-demyanenko-tablet@1x.jpg 1x, ./images/ihor-demyanenko-tablet@2x.jpg 2x">
                             <source media="(max-width: 767px)"
                                 srcset="./images/ihor-demyanenko-mobile@1x.jpg 1x, ./images/ihor-demyanenko-mobile@2x.jpg 2x">
-                            <img src="./images/ihor-demyanenko-mobile@1x.jpg" alt="Ігор Дем'яненко" width="450" height="460"  class="team__photo">
+                            <img src="./images/ihor-demyanenko-mobile@1x.jpg" alt="Ігор Дем'яненко" width="450" height="460" loading="lazy"  class="team__photo">
                         </picture>
                         <h3 class="team__member">Ігор Дем'яненко</h3>
                         <p class="team__slogan">Product Designer</p>
@@ -218,15 +217,15 @@
                     </li>
 
                     <li class="team__item">
-                        <picture>
-                            <source media="(min-width: 1200px)"
-                                srcset="./images/olga-repina-desktop@1x.jpg 1x, ./images/olga-repina-desktop@2x.jpg 2x">
-                            <source media="(min-width: 768px)"
-                                srcset="./images/olga-repina-tablet@1x.jpg 1x, ./images/olga-repina-tablet@2x.jpg 2x">
-                            <source media="(max-width: 767px)"
-                                srcset="./images/olga-repina-mobile@1x.jpg 1x, ./images/olga-repina-mobile@2x.jpg 2x">
-                            <img src="./images/olga-repina-mobile@1x.jpg" alt="Ольга Рєпіна" width="450" height="460" class="team__photo">
-                        </picture>
+                    <picture>
+                        <source media="(min-width: 1200px)"
+                            srcset="./images/olga-repina-desktop@1x.jpg 1x, ./images/olga-repina-desktop@2x.jpg 2x">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/olga-repina-tablet@1x.jpg 1x, ./images/olga-repina-tablet@2x.jpg 2x">
+                        <source media="(max-width: 767px)"
+                            srcset="./images/olga-repina-mobile@1x.jpg 1x, ./images/olga-repina-mobile@2x.jpg 2x">
+                        <img src="./images/olga-repina-mobile@1x.jpg" alt="Ольга Рєпіна" width="450" height="460" loading="lazy"  class="team__photo">
+                    </picture>
                         <h3 class="team__member">Ольга Рєпіна</h3>
                         <p class="team__slogan">Frontend Developer</p>
                         <ul class="team-icons">
@@ -268,7 +267,7 @@
                                 srcset="./images/mykola-tarasov-tablet@1x.jpg 1x, ./images/mykola-tarasov-tablet@2x.jpg 2x">
                             <source media="(max-width: 767px)"
                                 srcset="./images/mykola-tarasov-mobile@1x.jpg 1x, ./images/mykola-tarasov-mobile@2x.jpg 2x">
-                            <img src="./images/mykola-tarasov-mobile@1x.jpg" alt="Микола Тарасов" width="450" height="460"  class="team__photo">
+                            <img src="./images/mykola-tarasov-mobile@1x.jpg" alt="Микола Тарасов" width="450" height="460" loading="lazy"  class="team__photo">
                         </picture>
                         <h3 class="team__member">Микола Тарасов</h3>
                         <p class="team__slogan">Marketing</p>
@@ -311,7 +310,7 @@
                                 srcset="./images/mykhailo-yermakov-tablet@1x.jpg 1x, ./images/mykhailo-yermakov-tablet@2x.jpg 2x">
                             <source media="(max-width: 767px)"
                                 srcset="./images/mykhailo-yermakov-mobile@1x.jpg 1x, ./images/mykhailo-yermakov-mobile@2x.jpg 2x">
-                            <img src="./images/mykhailo-yermakov-mobile@1x.jpg" alt="Михайло Єрмаков" width="450" height="460"  class="team__photo">
+                            <img src="./images/mykhailo-yermakov-mobile@1x.jpg" alt="Михайло Єрмаков" width="450" height="460" loading="lazy"  class="team__photo">
                         </picture>
                         <h3 class="team__member">Михайло Єрмаков</h3>
                         <p class="team__slogan">UI Designer</p>
@@ -416,7 +415,7 @@
     <!--Footer-->
     <footer class="footer">
         <div class="container container-flex">
-            <div class="footer__first-box">
+            <div class="footer__two-container">
             <div class="footer__box">
                 <a href="" class="footer__logo"><span>Web</span><span class="footer__studio">Studio</span></a>
                 <address>
@@ -471,7 +470,7 @@
                     </li>
                 </ul>
             </div>
-            </div>
+    </div>
             <div class="footer-subscribe">
               <p class="subscribe__caption">Підпишіться на розсилку</p>
               <form class="footer-form">
@@ -551,44 +550,42 @@
        </div>
     </div>
 
-    <!-- Mobile -->
+
+
+    <!-- Mobile menu -->
+
+
     <div class="mobile-menu js-menu-container" id="mobile-menu">
         <button class="mobile-menu__button js-close-menu" type="button">
             <svg width="40" height="40" aria-label="Кнопка мобільного меню">
                 <use href="./images/symbol-defs2.svg#icon-mobile-close"></use>
             </svg>
         </button>
-        <ul class="mobile-menu-nav">
-            <li class="mobile-menu-nav__item"><a class="mobile-menu-nav__link mobile-menu-nav__link--current"
-                    href="./index.html">Студія</a></li>
-            <li class="mobile-menu-nav__item"><a class="mobile-menu-nav__link" href="./portfolio.html">Портфоліо</a></li>
-            <li class="mobile-menu-nav__item"><a class="mobile-menu-nav__link" href="">Контакти</a></li>
+        <ul class="mobile-menu-navigation">
+            <li class="mobile-menu-navigation__item"><a class="mobile-menu-navigation__link mobile-menu-navigation__link--current" href="./index.html">Студія</a></li>
+            <li class="mobile-menu-navigation__item"><a class="mobile-menu-navigation__link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="mobile-menu-navigation__item"><a class="mobile-menu-navigation__link" href="">Контакти</a></li>
         </ul>
-        <ul class="mobile-menu-contact">
-            <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__telephon" href="tel:+380961111111">+38 096
-                    111 11 11</a></li>
-            <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__email"
-                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <ul class="mobile-menu__contacts">
+            <li class="mobile-menu__contacts-item"><a class="mobile-menu__contacts__tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="mobile-menu__contacts-item"><a class="mobile-menu__contacts__email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         </ul>
-        <ul class="mobile-menu-social">
-            <li class="mobile-menu-social__item">
-                <a class="mobile-menu-social__link" href="https://www.instagram.com" rel="noreferrer noopener"
-                    target="_blank" title="Instagram">Instagram</a>
+        <ul class="mobile-menu__social">
+            <li class="mobile-menu__item">
+                <a class="mobile-menu-social__link" href="https://www.instagram.com" rel="noreferrer noopener" target="_blank" title="Instagram">Instagram</a>
             </li>
-            <li class="mobile-menu-social__item">
-                <a class="mobile-menu-social__link" href="https://twitter.com" rel="noreferrer noopener" target="_blank"
-                    title="Twitter">Twitter</a>
+            <li class="mobile-menu__item">
+                <a class="mobile-menu-social__link" href="https://twitter.com" rel="noreferrer noopener" target="_blank" title="Twitter">Twitter</a>
             </li>
-            <li class="mobile-menu-social__item">
-                <a class="mobile-menu-social__link" href="https://www.facebook.com" rel="noreferrer noopener"
-                    target="_blank" title="Facebook">Facebook</a>
+            <li class="mobile-menu__item">
+                <a class="mobile-menu-social__link" href="https://www.facebook.com" rel="noreferrer noopener" target="_blank" title="Facebook">Facebook</a>
             </li>
-            <li class="mobile-menu-social__item">
-                <a class="mobile-menu-social__link" href="https://www.linkedin.com" rel="noreferrer noopener"
-                    target="_blank" title="LinkedIn">LinkedIn</a>
+            <li class="mobile-menu__item">
+                <a class="mobile-menu-social__link" href="https://www.linkedin.com" rel="noreferrer noopener" target="_blank" title="LinkedIn">LinkedIn</a>
             </li>
         </ul>
     </div>
+
 
 
     <script src="./js/modal.js"></script>
