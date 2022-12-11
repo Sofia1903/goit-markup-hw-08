@@ -26,7 +26,13 @@
             <nav class="navigation">
                 <a href="" class="webstudio"><span>Web</span>Studio</a>
 
-                
+                <button class="mobile-menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
+                    <svg width="40" height="40" aria-label="Кнопка мобільного меню">
+                        <use href="./images/symbol-defs2.svg#"></use>
+                    </svg>
+                </button>
+
+
                 <ul class="navigation-list">
                     <li class="navigation-list__item"><a href="index.html" class="navigation-list__link current">Студія</a></li>
                     <li class="navigation-list__item"><a href="portfolio.html" class="navigation-list__link">Портфоліо</a></li>
@@ -112,7 +118,7 @@
         </section>
 
         <!--Work-->
-        <section class="section-work">
+        <section class="section-work works">
             <div class="container">
                 <h2 class="work__heading">Чим ми займаємося</h2>
                 <ul class="work-list">
@@ -410,7 +416,8 @@
     <!--Footer-->
     <footer class="footer">
         <div class="container container-flex">
-            <div>
+            <div class="footer__first-box">
+            <div class="footer__box">
                 <a href="" class="footer__logo"><span>Web</span><span class="footer__studio">Studio</span></a>
                 <address>
                     <ul class="contacts_footer">
@@ -464,7 +471,7 @@
                     </li>
                 </ul>
             </div>
-            
+            </div>
             <div class="footer-subscribe">
               <p class="subscribe__caption">Підпишіться на розсилку</p>
               <form class="footer-form">
@@ -545,7 +552,43 @@
     </div>
 
     <!-- Mobile -->
-    
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+        <button class="mobile-menu__button js-close-menu" type="button">
+            <svg width="40" height="40" aria-label="Кнопка мобільного меню">
+                <use href="./images/symbol-defs2.svg#icon-mobile-close"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu-nav">
+            <li class="mobile-menu-nav__item"><a class="mobile-menu-nav__link mobile-menu-nav__link--current"
+                    href="./index.html">Студія</a></li>
+            <li class="mobile-menu-nav__item"><a class="mobile-menu-nav__link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="mobile-menu-nav__item"><a class="mobile-menu-nav__link" href="">Контакти</a></li>
+        </ul>
+        <ul class="mobile-menu-contact">
+            <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__telephon" href="tel:+380961111111">+38 096
+                    111 11 11</a></li>
+            <li class="mobile-menu-contact__item"><a class="mobile-menu-contact__email"
+                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        </ul>
+        <ul class="mobile-menu-social">
+            <li class="mobile-menu-social__item">
+                <a class="mobile-menu-social__link" href="https://www.instagram.com" rel="noreferrer noopener"
+                    target="_blank" title="Instagram">Instagram</a>
+            </li>
+            <li class="mobile-menu-social__item">
+                <a class="mobile-menu-social__link" href="https://twitter.com" rel="noreferrer noopener" target="_blank"
+                    title="Twitter">Twitter</a>
+            </li>
+            <li class="mobile-menu-social__item">
+                <a class="mobile-menu-social__link" href="https://www.facebook.com" rel="noreferrer noopener"
+                    target="_blank" title="Facebook">Facebook</a>
+            </li>
+            <li class="mobile-menu-social__item">
+                <a class="mobile-menu-social__link" href="https://www.linkedin.com" rel="noreferrer noopener"
+                    target="_blank" title="LinkedIn">LinkedIn</a>
+            </li>
+        </ul>
+    </div>
 
 
     <script src="./js/modal.js"></script>
