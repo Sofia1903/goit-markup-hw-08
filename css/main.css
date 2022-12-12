@@ -99,8 +99,10 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.footer-join {
-  margin-left: 70px;
+@media screen and (min-width: 1200px) {
+  .footer-join {
+    margin-left: 94px;
+  }
 }
 
 .footer-join__container {
@@ -170,9 +172,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-top: 20px;
 }
 @media screen and (min-width: 1200px) {
@@ -180,6 +179,17 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+@media screen and (min-width: 767px) {
+  .footer-form {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-form {
+    margin-left: 93px;
+    margin-top: 20px;
   }
 }
 

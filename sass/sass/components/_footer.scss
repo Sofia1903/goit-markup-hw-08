@@ -69,7 +69,10 @@ footer {
 }
 
 .footer-join {
-    margin-left: 70px;
+    // margin-left: 70px;
+    @media screen and (min-width: 1200px) {
+            margin-left: 94px;
+        }
 }
 
 .footer-join__container {
@@ -125,13 +128,23 @@ footer {
 
 .footer-form {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     // align-items: center;
     margin-top: 20px;
 
     @media screen and (min-width: $desktop) {
         align-items: center;
     }
+        // text-align: center;
+    
+        @media screen and(min-width: 767px) {
+            margin-top: 60px;
+        }
+    
+        @media screen and (min-width:1200px) {
+            margin-left: 93px;
+            margin-top: 20px;
+        }
 }
 
 .footer-form__input {
@@ -177,6 +190,7 @@ footer {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    // width: 207px;
 }
 
 .footer_contacts-link {
