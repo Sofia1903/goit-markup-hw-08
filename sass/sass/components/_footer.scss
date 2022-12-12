@@ -71,7 +71,9 @@ footer {
 .footer-join {
     margin-left: 70px;
 }
-
+.footer-join__container {
+    display: flex;
+}
 .footer-join__link {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
