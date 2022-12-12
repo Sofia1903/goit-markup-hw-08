@@ -53,6 +53,10 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
+    @media screen and (min-width: $mobile) {
+        
+    }
+
     @media screen and (max-width: 767px) {
         max-width: 480px;
     }
