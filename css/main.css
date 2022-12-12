@@ -509,7 +509,6 @@ header {
 @media screen and (min-width: 768px) {
   .contacts__li {
     margin-right: 0;
-    margin-bottom: 10px;
   }
   .contacts__li:last-child {
     margin-bottom: 0;
@@ -967,6 +966,10 @@ ul {
         -ms-flex-align: baseline;
             align-items: baseline;
   }
+}
+
+p {
+  text-align: center;
 }
 
 img {
