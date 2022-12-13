@@ -49,6 +49,10 @@ footer {
   color: #2196F3;
 }
 
+.footer-subscribe {
+  margin-left: auto;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -176,6 +180,12 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 20px;
 }
 @media screen and (min-width: 1200px) {
@@ -195,7 +205,6 @@ footer {
 }
 @media screen and (min-width: 1200px) {
   .footer-form {
-    margin-left: 93px;
     margin-top: 20px;
   }
 }

@@ -20,7 +20,9 @@ footer {
         color: $link-color;
     }
 }
-
+.footer-subscribe {
+    margin-left: auto;
+}
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -126,8 +128,9 @@ text-align: center;
 
 .footer-form {
     display: flex;
-    // justify-content: center;
-    // align-items: center;
+    justify-content: center;
+        align-items: center;
+       
     margin-top: 20px;
     
     @media screen and (min-width: $desktop) {
@@ -143,7 +146,7 @@ text-align: center;
         }
     
         @media screen and (min-width:1200px) {
-            margin-left: 93px;
+            // margin-left: 93px;
             margin-top: 20px;
         }
                 @media screen and (max-width: 768px) {
