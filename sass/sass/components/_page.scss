@@ -46,6 +46,10 @@ ul {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    @media screen and (min-width: $mobile) and (max-width: $desktop) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .container {
@@ -53,9 +57,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-    @media screen and (min-width: $mobile) {
-        
-    }
+    
 
     @media screen and (max-width: 767px) {
         max-width: 480px;
