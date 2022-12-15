@@ -752,11 +752,8 @@ header {
 }
 @media screen and (min-width: 768px) {
   .modal-form__checkbox-label {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.7;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
@@ -807,7 +804,6 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 448px;
   }
 }
 
@@ -1488,10 +1484,7 @@ button:hover, button:focus {
   .clients__list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 0;
-    -webkit-column-gap: 30px;
-       -moz-column-gap: 30px;
-            column-gap: 30px;
+    gap: 30px;
   }
 }
 
